@@ -1,4 +1,74 @@
-#image{
-    max-width: 100%;
-    display: block;
-  }
+/* Style untuk body */
+body {
+  display: flex; /* Menggunakan flexbox untuk layout */
+  justify-content: center; /* Pusatkan konten horizontal */
+  background-color: aqua; /* Warna latar belakang aqua */
+  margin: 0; /* Hapus margin bawaan */
+  font-family: 'Times New Roman', Times, serif; /* Font family untuk teks */
+  min-height: 100vh; /* Set ketinggian minimal body setidaknya 100% dari viewport */
+  position: relative; /* Atur posisi relatif untuk memudahkan penempatan footer */
+}
+
+/* Style untuk konten utama */
+  max-width: 800px; /* Lebar maksimum konten utama */
+  width: 100%; /* Lebar sesuai dengan viewport */
+  padding: 20px; /* Padding 20px di dalam konten utama */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow box untuk efek visual */
+  background-color: #c78383; /* Warna latar belakang */
+}
+
+/* Style untuk paragraf di dalam main */
+main > p {
+  text-align: center; /* Pusatkan teks paragraf */
+}
+
+/* Style untuk judul utama */
+#title {
+  text-align: center; /* Pusatkan teks judul */
+  display: block; /* Atur menjadi blok */
+  margin-bottom: 0; /* Hapus margin bawah */
+}
+
+/* Style untuk gambar */
+#img-div {
+  display: flex; /* Gunakan flexbox */
+  flex-direction: column; /* Atur arah kolom */
+  align-items: center; /* Pusatkan secara vertikal */
+}
+
+/* Style untuk gambar */
+#image {
+  display: block; /* Atur menjadi blok */
+  max-width: 100%; /* Lebar maksimum 100% */
+}
+
+/* Style untuk daftar tak berurut */
+ul {
+  list-style-type: none; /* Hapus tanda bullet */
+  padding-left: 0; /* Hapus padding kiri */
+}
+
+/* Style untuk elemen dalam daftar */
+li {
+  margin-bottom: 10px; /* Berikan margin bawah 10px */
+}
+
+/* Style untuk kutipan */
+blockquote {
+  text-align: center; /* Pusatkan teks kutipan */
+}
+
+/* Style untuk penutup */
+.closing {
+  font-size: 20px; /* Ukuran font 20px */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Font family */
+}
+
+/* Style untuk footer */
+footer {
+  text-align: center; /* Pusatkan teks footer */
+  padding-top: 50px; /* Padding atas 50px */
+  position: absolute; /* Atur posisi absolute */
+  bottom: 0; /* Geser ke bagian bawah */
+  width: 100%; /* Lebar 100% dari kontainer */
+}
