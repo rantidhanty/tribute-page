@@ -1,3 +1,5 @@
+/* CSS untuk styling dari dokumen HTML di atas */
+
 /* Style untuk body */
 body {
   display: flex; /* Menggunakan flexbox untuk layout */
@@ -10,6 +12,7 @@ body {
 }
 
 /* Style untuk konten utama */
+main {
   max-width: 800px; /* Lebar maksimum konten utama */
   width: 100%; /* Lebar sesuai dengan viewport */
   padding: 20px; /* Padding 20px di dalam konten utama */
